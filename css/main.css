@@ -1,10 +1,86 @@
 
 html {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Indie Flower", sans-serif;
   background-color: #33437c;
-  color: #fff;
+  color: #feffe4;
 }
 
 .p1 {
   color: #bacbe0;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.animate {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+
+.animate {
+  animation: animated-text 8s steps(30,end) 1s 1 normal both;
+  animation-iteration-count: 10;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 800px;}
+}
+
+@media only screen and (min-width: 25em){
+
+  html {
+      font-size: 100%;
+      line-height: 1.3;
+    }
+
+    h1,
+    p {
+      margin: 0 0 1.3rem;
+    }
+
+    @keyframes animated-text{
+      from{width: 0;}
+      to{width: 800px;}
+}
+
+@media only screen and (min-width: 38em){
+
+    html {
+      font-size: 110%;
+      line-height: 1.4;
+    }
+
+    h1,
+    p {
+      margin: 0 0 1.4rem;
+    }
+
+    @keyframes animated-text{
+      from{width: 0;}
+      to{width: 980px;}
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 1500px;}
+
 }
