@@ -15,18 +15,34 @@ h1, h2, p {
   margin: 0;
 }
 
+.btn {
+  background-color: #33437c;
+  color: #feffe4;
+  font-family: "Josefin Sans", sans-serif;
+  border-color: #feffe4;
+}
+
+.btn:hover {
+  background-color: #22264f;
+  color: #feffe4;
+  border-color: #feffe4;
+}
+
 .animate {
   white-space: nowrap;
   overflow: hidden;
   font-family: "Josefin Sans", sans-serif;
-  color: rgba(255, 255, 255, .70);
+  color: rgba(255, 255, 255, .7);
   animation: animated-text 10s steps(30, end) 1s 1 normal both;
   animation-iteration-count: 10;
 }
 
 @keyframes animated-text {
-  from{width: 0;}
-  to{width: 800px;}
+
+  from { width: 0; }
+
+  to { width: 800px; }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -36,9 +52,12 @@ h1, h2, p {
     margin: 0 0 1.3rem;
   }
 
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 800px;}
+  @keyframes animated-text {
+
+    from { width: 0; }
+
+    to { width: 800px; }
+
   }
 
   .animate {
@@ -52,12 +71,14 @@ h1, h2, p {
   h1,
   p {
     margin: 0 0 1.4rem;
-
   }
 
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 980px;}
+  @keyframes animated-text {
+
+    from { width: 0; }
+
+    to { width: 980px; }
+
   }
 
   .animate {
@@ -68,15 +89,23 @@ h1, h2, p {
 
 @media only screen and (min-width: 60em) {
 
-  h1,
-  p {
-    margin: 0 0 1.5rem;
-
+  h1 {
+    margin-right: 0;
+    padding-right: 0;
+    text-align: right;
   }
 
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 1500px;}
+  h2 {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  @keyframes animated-text {
+
+    from { width: 0; }
+
+    to { width: 1500px; }
 
   }
 
