@@ -19,7 +19,6 @@ h1, h2, p {
   white-space: nowrap;
   overflow: hidden;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 28px;
   color: rgba(255, 255, 255, .70);
   animation: animated-text 10s steps(30, end) 1s 1 normal both;
   animation-iteration-count: 10;
