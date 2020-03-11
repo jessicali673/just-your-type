@@ -20,17 +20,17 @@ h1, h2, p {
   overflow: hidden;
   font-family: "Josefin Sans", sans-serif;
   font-size: 28px;
-  color: rgba(255,255,255,.70);
-  animation: animated-text 10s steps(30,end) 1s 1 normal both;
+  color: rgba(255, 255, 255, .70);
+  animation: animated-text 10s steps(30, end) 1s 1 normal both;
   animation-iteration-count: 10;
 }
 
-@keyframes animated-text{
+@keyframes animated-text {
   from{width: 0;}
   to{width: 800px;}
 }
 
-@media only screen and (min-width: 25em){
+@media only screen and (min-width: 25em) {
 
   h1,
   p {
@@ -45,13 +45,15 @@ h1, h2, p {
   .animate {
     animation-duration: 12s;
   }
+
 }
 
-@media only screen and (min-width: 38em){
+@media only screen and (min-width: 38em) {
 
   h1,
   p {
     margin: 0 0 1.4rem;
+
   }
 
   @keyframes animated-text{
@@ -62,6 +64,7 @@ h1, h2, p {
   .animate {
     animation-duration: 15s;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -69,11 +72,13 @@ h1, h2, p {
   h1,
   p {
     margin: 0 0 1.5rem;
+
   }
 
   @keyframes animated-text{
     from{width: 0;}
     to{width: 1500px;}
+
   }
 
   .animate {
